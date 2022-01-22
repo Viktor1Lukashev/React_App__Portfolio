@@ -1,11 +1,8 @@
-import React, { useState, useEffect } from 'react';
-import Homepage from './components/Homepage.jsx';
+import React from 'react';
 import './App.css';
+import AppRoutes from './components/AppRoutes';
 
 function App() {
-  return (
-      <Homepage />
-      
-  );
+  return <AppRoutes />;
 }
 export default App;

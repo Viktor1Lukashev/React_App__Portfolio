@@ -1,30 +1,23 @@
-.header{
+.header {
   width: 100%;
   height: 90px;
   box-shadow: 0 3px 5px black;
   background-color: rgb(47, 47, 47);
 }
-.container{
-    display: flex;
-    justify-content: center;
-    
- 
+.container {
+  display: flex;
+  justify-content: center;
 }
-.menu li{
+.menu li {
   display: inline;
   margin-left: 20px;
 }
-.menu li a{
+.menu li a {
   text-decoration: none;
   font-size: 17px;
   padding: 10px;
-  color:blanchedalmond
-
-
+  color: blanchedalmond;
 }
-.menu li a:hover{
+.menu li a:hover {
   background-color: cadetblue;
-  
-  
-
 }
